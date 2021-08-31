@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-30T23:41:58 IST" name="Default suite" finished-at="2021-08-30T23:45:21 IST" duration-ms="203783">
+    <groups>
+    </groups>
+    <test started-at="2021-08-30T23:41:58 IST" name="Default test" finished-at="2021-08-30T23:45:21 IST" duration-ms="203783">
+      <class name="MavenProject.FrameWork.MyntraLogin">
+        <test-method is-config="true" signature="Init()[pri:0, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:41:58 IST" name="Init" finished-at="2021-08-30T23:42:35 IST" duration-ms="37089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="NavigateLogin(java.lang.String,java.lang.String)[pri:1, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:42:35 IST" name="NavigateLogin" data-provider="getUserPass" finished-at="2021-08-30T23:43:03 IST" duration-ms="28519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7798993710]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saanika@100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateLogin -->
+        <test-method signature="SelectandSort()[pri:2, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:43:03 IST" name="SelectandSort" finished-at="2021-08-30T23:43:53 IST" duration-ms="49639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectandSort -->
+        <test-method signature="FilterandSelectProduct()[pri:3, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:43:53 IST" name="FilterandSelectProduct" finished-at="2021-08-30T23:44:45 IST" duration-ms="52287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterandSelectProduct -->
+        <test-method signature="Size_AddCart()[pri:4, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:44:45 IST" name="Size_AddCart" finished-at="2021-08-30T23:44:48 IST" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Size_AddCart -->
+        <test-method signature="MoveToWishlist()[pri:5, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:44:48 IST" name="MoveToWishlist" finished-at="2021-08-30T23:45:16 IST" duration-ms="28516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToWishlist -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:MavenProject.FrameWork.MyntraLogin@47c4ecdc]" started-at="2021-08-30T23:45:16 IST" name="Close" finished-at="2021-08-30T23:45:21 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- MavenProject.FrameWork.MyntraLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

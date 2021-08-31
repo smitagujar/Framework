@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MavenProject.FrameWork.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Testing(failed)">
+    <classes>
+      <class name="MavenProject.FrameWork.MyntraLogin">
+        <methods>
+          <include name="Size_AddCart"/>
+          <include name="Close"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- MavenProject.FrameWork.MyntraLogin -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

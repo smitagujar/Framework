@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="216881" started-at="2021-08-30T00:42:37 IST" finished-at="2021-08-30T00:46:14 IST">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="216881" started-at="2021-08-30T00:42:37 IST" finished-at="2021-08-30T00:46:14 IST">
+      <class name="MavenProject.FrameWork.MyntraLogin">
+        <test-method status="PASS" signature="Init()[pri:0, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="Init" is-config="true" duration-ms="41241" started-at="2021-08-30T00:42:37 IST" finished-at="2021-08-30T00:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="NavigateLogin(java.lang.String,java.lang.String)[pri:1, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="NavigateLogin" duration-ms="28710" started-at="2021-08-30T00:43:18 IST" data-provider="getUserPass" finished-at="2021-08-30T00:43:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7798993710]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saanika@100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateLogin -->
+        <test-method status="PASS" signature="SelectandSort()[pri:2, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="SelectandSort" duration-ms="28591" started-at="2021-08-30T00:44:12 IST" finished-at="2021-08-30T00:44:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectandSort -->
+        <test-method status="PASS" signature="FilterandSelectProduct()[pri:3, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="FilterandSelectProduct" duration-ms="53794" started-at="2021-08-30T00:44:41 IST" finished-at="2021-08-30T00:45:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterandSelectProduct -->
+        <test-method status="FAIL" signature="Size_AddCart()[pri:4, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="Size_AddCart" duration-ms="3245" started-at="2021-08-30T00:45:36 IST" finished-at="2021-08-30T00:45:39 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <p class="size-buttons-unified-size">...</p> is not clickable at point (832, 369). Other element would receive the click: <span class="size-buttons-size-strike-show"></span>
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-RK4DV1OT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde8d80272a943322d950ff4c992cd8f, clickElement {id=165a9c66-d4c3-409d-8309-06abe237eb3d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64746/devtoo..., se:cdpVersion: 92.0.4515.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fde8d80272a943322d950ff4c992cd8f)] -> xpath: //p[@class='size-buttons-unified-size']]
+Session ID: fde8d80272a943322d950ff4c992cd8f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p class="size-buttons-unified-size">...</p> is not clickable at point (832, 369). Other element would receive the click: <span class="size-buttons-size-strike-show"></span>
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-RK4DV1OT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde8d80272a943322d950ff4c992cd8f, clickElement {id=165a9c66-d4c3-409d-8309-06abe237eb3d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64746/devtoo..., se:cdpVersion: 92.0.4515.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fde8d80272a943322d950ff4c992cd8f)] -> xpath: //p[@class='size-buttons-unified-size']]
+Session ID: fde8d80272a943322d950ff4c992cd8f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:235)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:73)
+at MavenProject.FrameWork.MyntraLogin.Size_AddCart(MyntraLogin.java:210)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Size_AddCart -->
+        <test-method status="PASS" signature="MoveToWishlist()[pri:5, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="MoveToWishlist" duration-ms="28951" started-at="2021-08-30T00:45:39 IST" finished-at="2021-08-30T00:46:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToWishlist -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:MavenProject.FrameWork.MyntraLogin@4b013c76]" name="Close" is-config="true" duration-ms="5014" started-at="2021-08-30T00:46:09 IST" finished-at="2021-08-30T00:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- MavenProject.FrameWork.MyntraLogin -->
+    </test> <!-- Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

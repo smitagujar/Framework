@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 221.559 s <<< FAILURE! - in TestSuite
+MavenProject.FrameWork.MyntraLogin.Size_AddCart  Time elapsed: 3.269 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <p class="size-buttons-unified-size">...</p> is not clickable at point (832, 369). Other element would receive the click: <span class="size-buttons-size-strike-show"></span>
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'LAPTOP-RK4DV1OT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fde8d80272a943322d950ff4c992cd8f, clickElement {id=165a9c66-d4c3-409d-8309-06abe237eb3d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\samee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64746/devtoo..., se:cdpVersion: 92.0.4515.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fde8d80272a943322d950ff4c992cd8f)] -> xpath: //p[@class='size-buttons-unified-size']]
+Session ID: fde8d80272a943322d950ff4c992cd8f
+	at MavenProject.FrameWork.MyntraLogin.Size_AddCart(MyntraLogin.java:210)
+
